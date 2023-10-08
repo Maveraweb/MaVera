@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MaVera - Tu Socio en Soluciones</title> <!-- Agregado título más descriptivo para SEO -->
+
+   <!-- Enlace al CDN de Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+
+   <!-- Enlace al archivo de estilos personalizado -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   <!-- Botón del chatbot -->
+   <button class="chatbot-toggler">
+      <img src="images/chatbot.gif" alt="Asistente Virtual" class="chatbot-icon">
+   </button>
+   <!-- Ventana del chatbot -->
+   <div class="chatbot">
+      <header>
+         <h2>Asistente Virtual</h2>
+         <span class="close-btn material-symbols-outlined">cerrar</span>
+      </header>
+      <ul class="chatbox">
+         <li class="chat incoming">
+            <img src="images/chatbot.gif" alt="Asistente Virtual" class="chatbot-icon_2">
+            <p>Hola 👋<br>¿En qué puedo ayudarte hoy?</p>
+         </li>
+      </ul>
+      <div class="chat-input">
+         <textarea placeholder="Ingresa un mensaje..." spellcheck="false" required></textarea>
+         <span id="send-btn" class="material-symbols-rounded">enviar</span>
+      </div>
+   </div>
+
+</body>
+<!-- Comienza la sección de la cabecera -->
+
+<div>
+   <a href="https://api.whatsapp.com/send?phone=3007021877" target="_blank" rel="noopener noreferrer" class="whatsapp-link">
+      <img src="images/Logo_W.png" alt="WhatsApp" class="whatsapp-poster">
+   </a>
+</div>
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#" class="logo" title="Ir al inicio">
+         <img src="images/Logo_1.png" alt="Logo de MaVera" class="logo-img">
+      </a>
+
+      <nav class="navbar">
+         <a href="#home" title="Ir al inicio">Inicio</a>
+         <a href="#services" title="Nuestros Servicios">Servicios</a>
+         <a href="#projects" title="Nuestros Proyectos">Proyectos</a>
+         <a href="#contact" title="Contáctanos">Chatbot</a> <!-- Cambiado "Chatbot" por "Contacto" para mayor claridad -->
+         <a href="#blogs" title="Nuestros Blogs">Blogs</a>
+         <a href="#about" title="Conócenos">Conócenos</a> <!-- Cambiado "Sobre Nosotros" por "Conócenos" para una alternativa más amigable -->
+         <a href="#Aliados" title="Nuestros Aliados">Aliados</a>
+      </nav>
+   
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars" title="Menú"></div>
+         <div id="info-btn" class="fas fa-phone" title="Información de Contacto"></div>
+      </div>
+   
+   </section>
+
+</header>
+
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times" title="Cerrar Información de Contacto"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>Números de Teléfono</h3>
+      <p>+57 300 7021877</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>Correo Electrónico</h3>
+      <p>ventas.mavera@gmail.com</p>
+   </div>
+
+   <div class="share">
+      <a href="https://www.facebook.com/profile.php?id=100094071717078" class="fab fa-facebook-f" title="Facebook"></a>
+      <a href="https://instagram.com/mavera10?igshid=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram" title="Instagram"></a>
+      <a href="https://api.whatsapp.com/send?phone=3007021877" class="fab fa-whatsapp"title="WhatsApp"></a>
+
+   </div>
+
+</div>
+
+<!-- Finaliza la sección de la cabecera -->
+
+<!-- Sección de Inicio -->
+
+<div class="home" id="home">
+   
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>Diseñamos el futuro con elegancia y estilo</h3>
+               <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+            </div>   
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>Creando un Futuro Sólido y Seguro</h3>
+               <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización" target="_blank">Cotizar</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>Construcción con Calidad y Compromiso</h3>
+               <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+            </div>
+         </div>
+
+      </div>      
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</div>
+
+<!-- Finaliza la sección de Inicio -->
+
+
+
+<!-- Sección de Servicios -->
+
+<div class="services-container">
+
+   <section class="services" id="services">
+
+      <h1 class="heading">Nuestros Servicios</h1>
+   
+      <div class="box-container">
+   
+         <div class="box">
+            <img src="images/service-6.png" alt="Diseño y Remodelación de Vivienda Nueva">
+            <h3>Diseño y remodelación de vivienda nueva</h3>
+            <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+         </div>
+   
+         <div class="box">
+            <img src="images/service-2.png" alt="Diseño y Remodelación de Vivienda Usada">
+            <h3>Diseño y remodelación de vivienda usada</h3>
+            <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+         </div>
+   
+         <div class="box">
+            <img src="images/service-1.png" alt="Diseño y Construcción de Vivienda Nueva">
+            <h3>Diseño y construcción de vivienda nueva</h3>
+            <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+         </div>
+   
+         <div class="box">
+            <img src="images/service-4.png" alt="Construcción de Proyectos Ecoturísticos">
+            <h3>Construcción de proyectos ecoturísticos</h3>
+            <a href="Formulario MaVera/Formulario.html" class="btn" title="Solicitar Cotización">Cotizar</a>
+         </div>
+   
+      </div>
+   
+   </section>
+
+</div>
+
+<!-- Finaliza la sección de Servicios -->
+
+<!-- Sección de Proyectos -->
+
+<div class="projects-container">
+
+   <section class="projects" id="projects">
+
+      <h1 class="heading"> Nuestros Proyectos </h1>
+   
+      <div class="box-container">
+   
+         <a href="images/Saboya_ciclo_1.gif" class="box" title="Ver Proyecto">
+            
+            <div class="image">
+               <img src="images/Saboya_ciclo_1.gif" alt="Imagen de Casa de Sueños">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Casa de sus Sueños</h3>
+                  <p>Construcción, Diseño</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+   
+        
+   
+         <a href="images/project-3.jpg" class="box" title="Ver Proyecto">
+            <div class="image">
+               <img src="images/project-3.jpg" alt="Imagen de Casa de Sueños">
+            </div>
+            <div class="content">
+               <div class="info">
+                  <h3>Casa de sus Sueños</h3>
+                  <p>Construcción, Diseño</p>
+               </div>
+               <i class="fas fa-plus"></i>
+            </div>
+         </a>
+   
+      </div>
+   
+   </section>
+
+</div>
+<!-- Finaliza la sección de Proyectos -->
+
+<!-- Sección de Contacto -->
+
+<div class="contact-container">
+   <section class="contact" id="contact">
+     <h1 class="heading">Asistente Virtual</h1> <!-- Cambiado "CHATBOT" por "Asistente Virtual" para mayor claridad -->
+      
+     <div class="chatbot-info">
+       <div class="chatbot-gif">
+         <img src="images/chatbot.gif" alt="Asistente Virtual en Acción">
+       </div>
+       <div class="chatbot-text">
+         <p class="chatbot-text">
+            <span class="typing-animation">¡Estoy para ayudarte!<br></span>
+          </p>    
+           <p>¿Tienes preguntas? Nuestro asistente virtual está aquí para ayudarte.</p>
+         <p>Puedes interactuar con él para obtener respuestas rápidas y asistencia en línea.</p>
+         <a href="javascript:void(0);" class="btn" id="open-chatbot">Interactuar</a>
+      </div>
+     </div>
+   </section>
+ </div>
+
+<!-- Finaliza la sección de Contacto -->
+
+<section class="about" id="about">
+
+   <h1 class="heading">Sobre nosotros</h1>
+
+   <div class="row">
+
+      <div class="video">
+         <video src="images/about-vid.mp4" loop muted autoplay></video>
+      </div>
+
+      <div class="content">
+         <h3>Transformando tus espacios con pasión y experiencia</h3>
+         <p>Somos un equipo de profesionales altamente capacitados y apasionados por brindarte la excelencia en remodelaciones, ingeniería civil y diseño de interiores. Nuestra vasta experiencia en el campo nos permite llevar a cabo proyectos de manera eficiente, creativa y con un enfoque meticuloso en cada detalle. Estamos comprometidos en convertir tus sueños en realidad, transformando espacios para que reflejen tu estilo y personalidad. Confía en nosotros para proporcionarte el mejor trabajo que siempre has soñado, porque tu satisfacción es nuestra máxima prioridad.</p>
+         <a href="#services" class="btn">MISIÓN</a>
+         <a href="#services" class="btn">VISIÓN</a>
+
+      </div>
+
+   </div>
+
+
+</section>
+
+<!-- blogs section starts  -->
+<div class="blogs-container">
+   <section class="blogs" id="blogs">
+      <h1 class="heading"> Opiniones de nuestros clientes</h1>
+      <div class="swiper blogs-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+               <!-- Código para el widget de la segunda publicación de Instagram -->
+               <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CwEed1uPkME/?igshid=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+               <!-- Fin del código del widget de la segunda publicación de Instagram -->
+           </div>
+
+
+            <div class="swiper-slide slide">
+               <!-- Código para el widget de la segunda publicación de Instagram -->
+               <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CwEhH6jxRNz/?igshid=MzRlODBiNWFlZA==" data-instgrm-version="13"></blockquote>
+               <!-- Fin del código del widget de la segunda publicación de Instagram -->
+           </div>
+   
+         </div>
+   
+      </div>
+   
+   </section>
+
+</div>    
+
+
+
+
+<!-- client logo section starts -->
+
+<section class="logo-container" id="Aliados">
+   <div class="swiper logo-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide"><img src="images/basan.jpeg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/asde.jpg" alt=""></div>
+         <div class="swiper-slide slide"><img src="images/tmr.jpg" alt=""></div>
+        
+      </div>
+   </div>
+</section>
+
+<!-- client logo section ends -->
+
+<!-- footer section starts  -->
+
+<footer>
+   <div class="footer">
+   <div class="row">
+   <a href="https://www.facebook.com/profile.php?id=100094071717078"><i class="fab fa-facebook"></i></a>
+   <a href="https://instagram.com/mavera10?igshid=OGQ5ZDc2ODk2ZA=="><i class="fab fa-instagram"></i></a>
+   <a href="https://api.whatsapp.com/send?phone=3123289086"><i class="fab fa-whatsapp"></i></a>
+   </div>
+   
+   <div class="row">
+   <ul>
+   <li><a href="#home" title="Ir al inicio">Inicio</a></li>
+   <li><a href="#services" title="Nuestros Servicios">Servicios</a></li>
+   <li><a href="#projects" title="Nuestros Proyectos">Proyectos</a></li>
+   <li><a href="#contact" title="Contáctanos">Chatbot</a></li>
+   <li><a href="#blogs" title="Nuestros Blogs">Blogs</a></li>
+   <li><a href="#about" title="Conócenos">Conócenos</a></li>
+   <li><a href="#Aliados" title="Nuestros Aliados">Aliados</a></li>
+
+   </ul>
+   </div>
+   
+   <div class="row">
+      <p style="margin-bottom: 10px;">Copyright © MaVera 2023  - Reservados todos los derechos</p>
+      <p style="margin-bottom: 10px;"><a href="https://bdavidl.github.io/">Diseñado por: https://bdavidl.github.io/</a></p>
+   </div>
+   </div>
+   </footer>
+
+<!-- footer section ends -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script async src="https://www.instagram.com/embed.js"></script>
+
+<script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+
+</body>
+</html>
